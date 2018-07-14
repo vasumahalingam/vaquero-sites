@@ -1,7 +1,7 @@
 config:
   type: git
   ref: master
-  id:  vaquero-dev-config1
+  id:  vaquero-dev-config
 ---
 name: host1
 interfaces:
