@@ -37,7 +37,7 @@ interfaces:
   - type: physical
     subnet: harmony-mgmt
     mac: 24:6E:96:3B:A0:F2
-    ipv4: 172.29.87.74
+    ipv4: 172.29.87.77
   - type: bmc
     subnet: harmony-mgmt
     mac: 84:7B:EB:D8:EE:B8
