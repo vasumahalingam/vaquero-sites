@@ -3,7 +3,7 @@ config:
   ref: master
   id:  vaquero-dev-config
 ---
-name: dell-node0:
+name: dell-node0
   - type: physical
     subnet: harmony-mgmt
     mac: 24:6E:96:3B:A1:38
