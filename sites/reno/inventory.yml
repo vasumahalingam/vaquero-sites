@@ -1,10 +1,8 @@
 ---
 config:
   type: git
-  url: "https://github.com/mattdietz/vaquero-sot"
   ref: "master"
-  token: "79c52be0408ebff7fb31d1ca94d88637dc5c4672"
-
+  id:  vaquero-dev-config 
 ---
 name: dell-node0
 interfaces:
