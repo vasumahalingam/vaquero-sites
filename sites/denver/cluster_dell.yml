@@ -1,7 +1,4 @@
-config:
-  type: git
-  ref: master
-  id:  vaquero-prod-config
+
 ---
 name: dell-node0
 interfaces:
