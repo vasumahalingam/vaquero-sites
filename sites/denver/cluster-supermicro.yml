@@ -1,14 +1,15 @@
+---
 config:
-  type: git
-  ref: master
-  id:  vaquero-prod-config
+   type: git
+   ref: master
+   id: vaquero-prod-config
 ---
 name: sm-node0
 interfaces:
   - type: physical
     subnet: harmony-mgmt
     mac: 0C:C4:7A:B7:FD:09
-    ipv4: 172.29.87.69
+    ipv4: 172.29.87.68
   - type: bmc
     subnet: harmony-mgmt
     mac: 0C:C4:7A:D5:61:14
@@ -45,7 +46,7 @@ metadata:
       - pet2
       params:
         bond-mode: active-backup
-    - type: vlan
+          - type: vlan
       name: bond0.501
       vlan_link:  bond0
       vlan_id:   501
@@ -91,4 +92,3 @@ metadata:
     packages: []
 
 workflow: centos
-
