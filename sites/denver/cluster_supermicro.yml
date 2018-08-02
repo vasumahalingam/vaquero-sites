@@ -1,3 +1,8 @@
+config:
+   type: git
+   ref: master
+   id: vaquero-prod-config
+---
 name: sm-node0
 interfaces:
   - type: physical
