@@ -1,6 +1,6 @@
 config:
    type: git
-   ref: cf804939dc87f5863b5b184072f6382607e6e33e
+   ref: 8ad1c57aa0b3ef9f7324c64334cc4f4baf7c610f
    id: vaquero-prod-config
 ---
 name: sm-node0
